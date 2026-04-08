@@ -28,5 +28,8 @@ dependencies = ["httpx>=0.27"]
 Homepage = "https://scanlyser.app"
 Repository = "https://github.com/scanlyser/python-sdk"
 
+[tool.hatch.build.targets.wheel]
+packages = ["scanlyser"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
