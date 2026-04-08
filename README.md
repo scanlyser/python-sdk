@@ -10,7 +10,7 @@ Official Python SDK for the [ScanLyser](https://scanlyser.app) API. Run accessib
 ## Installation
 
 ```bash
-pip install scanlyser
+pip install scanlyser-sdk
 ```
 
 ## Quick Start
